@@ -1,8 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+...you have to install [Node.js 14+](https://nodejs.org/en/) <br />
+...for install yarn: `mpm i yarn -g`
 
-First, run the development server:
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn (or npm i)`
+
+for install libraries
+
+### `yarn start (or npm start)`
+
+for run the development server:
 
 ```bash
 npm run dev
