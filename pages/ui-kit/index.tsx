@@ -1,7 +1,7 @@
 import {Page} from '../../ui-kit/page/Page'
 import s from './ui-kit.module.css'
-import Button from './button/Button'
-import Input from './input/Input'
+import Button from '../../ui-kit/button/Button'
+import Input from '../../ui-kit/input/Input'
 
 const UIKit = () => {
     return (

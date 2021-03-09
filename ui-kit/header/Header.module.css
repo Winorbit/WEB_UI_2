@@ -1,0 +1,19 @@
+.all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    min-width: 1440px;
+    height: 69px;
+
+    background: linear-gradient(180deg, #3890E2 -26.09%, #2272C5 47.66%, #153E8D 123.19%);
+    color: #f9f9f9;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItem {
+    margin-right: 30px;
+}

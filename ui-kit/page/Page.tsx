@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import s from './Home.module.css'
+import {Header} from '../header/Header'
 
 export const Page:React.FC = ({children}) => {
     return (
@@ -11,21 +11,7 @@ export const Page:React.FC = ({children}) => {
                 {/*<link rel='icon' href='/favicon.ico'/>*/}
             </Head>
 
-            <header>
-                header {JSON.stringify(process.env)}
-                <br/>
-                <br/>
-                <Link href={'/'}>home</Link>
-                <br/>
-                <Link href={'/courses'}>courses</Link>
-                <br/>
-                <Link href={'/lesson'}>lesson</Link>
-                <br/>
-                <Link href={'/ui-kit'}>ui-kit</Link>
-                <br/>
-
-                <br/>
-            </header>
+            <Header/>
 
             {children}
 
