@@ -1,0 +1,140 @@
+.blue {
+    height: 44px;
+    width: 224px;
+
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+    font-size: 24px; /*regular*/
+    background: #60b3ff;
+    color: #ffffff;
+}
+
+.blue:hover {
+    cursor: pointer;
+
+    border: 2px solid #5e5e5e;
+}
+
+.blue:active {
+    border: none;
+
+    background: #005a9b;
+}
+
+/*----------------------*/
+
+.whiteBlueIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    font-size: 42px; /*regular*/
+    background: #ffffff;
+    color: #2e83d5;
+}
+
+.whiteBlue {
+    height: 76px;
+    width: 295px;
+
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: 3px;
+
+    background: linear-gradient(0, #3285D6, #153E8D);
+}
+
+.whiteBlue:hover {
+    cursor: pointer;
+
+    background: linear-gradient(0, #2A4A89 0, #3285D6 50%, #153E8D 100%);
+}
+
+.whiteBlueIn:hover {
+    color: #fdfdfd;
+    background: #2e83d5;
+}
+
+.whiteBlue:active {
+    background: linear-gradient(0, #F2F2F2 0, #3285D6 50%, #F2F2F2 100%);
+}
+
+.whiteBlueIn:active {
+    color: #ffffff;
+    background: #005a9b;
+}
+
+/*----------------------*/
+
+.black {
+    height: 76px;
+    width: 185px;
+
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    outline: none;
+
+    font-size: 24px; /*regular*/
+    background: #232323;
+    color: #ffffff;
+}
+
+.black:hover {
+    border: 2px solid #000000;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.4);
+
+    background: #ffffff;
+    color: #232323;
+}
+
+.black:active {
+    border: 2px solid #000000;
+    box-shadow: inset 4px 6px 6px rgba(0, 90, 155, 0.4);
+
+    background: #ffffff;
+    color: #232323;
+}
+
+/*----------------------*/
+
+.white {
+    height: 50px;
+    width: 185px;
+
+    border-radius: 4px;
+    border: 2px solid #000000;
+    outline: none;
+
+    font-size: 24px; /*regular*/
+    background: #ffffff;
+    color: #232323;
+}
+
+.dis {
+    height: 50px;
+    width: 185px;
+
+    border-radius: 4px;
+    border: 2px solid #e4e4e4;
+    outline: none;
+
+    font-size: 24px; /*regular*/
+    background: #eeeeee;
+    color: #ffffff;
+}
+
+.white:hover {
+    border:  2px solid #474747;
+    box-shadow: 0 7px 6px rgba(240, 240, 240, 0.3);
+}
+
+.white:active {
+    border:  2px solid #474747;
+    box-shadow: inset 4px 6px 6px rgba(46, 131, 213, 0.4);
+}

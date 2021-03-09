@@ -8,11 +8,11 @@ export const Page:React.FC = ({children}) => {
         <div className={s.container}>
             <Head>
                 <title>Winter Orbit</title>
-                <link rel='icon' href='/favicon.ico'/>
+                {/*<link rel='icon' href='/favicon.ico'/>*/}
             </Head>
 
             <header>
-                header
+                header {JSON.stringify(process.env)}
                 <br/>
                 <br/>
                 <Link href={'/'}>home</Link>

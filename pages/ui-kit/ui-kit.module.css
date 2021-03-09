@@ -1,0 +1,3 @@
+.test {
+    composes: baseBlue from "./colors.module.css";
+}
