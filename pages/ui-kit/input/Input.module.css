@@ -1,0 +1,56 @@
+.def {
+    width: 295px;
+    height: 25px;
+    padding-left: 10px;
+
+    border: 1px solid #2a7ed0;
+    border-radius: 8px;
+    outline: none;
+
+    background: #fdfdfd;
+    color: #2f2f2f;
+}
+
+.ok {
+    width: 295px;
+    height: 25px;
+    padding-left: 10px;
+
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    outline: none;
+
+    background: #fdfdfd;
+    color: #2f2f2f;
+}
+
+.error {
+    width: 295px;
+    height: 25px;
+    padding-left: 10px;
+
+    border: 1px solid #f44336;
+    border-radius: 8px;
+    outline: none;
+
+    background: #fdfdfd;
+    color: #2f2f2f;
+}
+
+.headText {
+    font-size: 16px; /*def size*/ /*roboto*/
+    line-height: 19px;
+    /*font-weight: 300;*/
+    color: #000000;
+}
+
+.bottomText {
+    line-height: 19px;
+    font-weight: 200;
+}
+
+.errorBottomText {
+    line-height: 19px;
+    font-weight: 200;
+    color: #f44336;
+}
