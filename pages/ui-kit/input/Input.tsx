@@ -19,7 +19,7 @@ const Input: React.FC<InputPropsType> = (
         ...restProps
     }
 ) => {
-    const finalClassName = (
+    const finalClassName = s.input + ' ' + (
         s[status || 'def']
     ) + (
         className

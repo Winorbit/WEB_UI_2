@@ -6,7 +6,9 @@
     border: none;
     outline: none;
 
-    font-size: 24px; /*regular*/
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 24px;
     background: #60b3ff;
     color: #ffffff;
 }
@@ -32,7 +34,9 @@
 
     height: 100%;
 
-    font-size: 42px; /*regular*/
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 42px;
     background: #ffffff;
     color: #2e83d5;
 }
@@ -80,7 +84,9 @@
     border: none;
     outline: none;
 
-    font-size: 24px; /*regular*/
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 24px;
     background: #232323;
     color: #ffffff;
 }
@@ -111,7 +117,9 @@
     border: 2px solid #000000;
     outline: none;
 
-    font-size: 24px; /*regular*/
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 24px;
     background: #ffffff;
     color: #232323;
 }
@@ -124,7 +132,9 @@
     border: 2px solid #e4e4e4;
     outline: none;
 
-    font-size: 24px; /*regular*/
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 24px;
     background: #eeeeee;
     color: #ffffff;
 }
