@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'sansation-light';
+  src: url('sansation-light.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}

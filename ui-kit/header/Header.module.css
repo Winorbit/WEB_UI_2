@@ -16,4 +16,33 @@
 
 .menuItem {
     margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.menuItemEnd {
+    margin-right: 7px;
+    padding-top: 20px;
+}
+
+.men {
+    padding-top: 17px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+
+    letter-spacing: 2px;
+    color: white;
+}
+
+.center .text {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-size: 48px;
+    font-family: 'sansation-light', serif;
 }
