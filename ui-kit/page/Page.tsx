@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import s from './Home.module.css'
 import {Header} from '../header/Header'
+import {Footer} from '../footer/Footer'
 
 export const Page:React.FC = ({children}) => {
     return (
@@ -15,11 +16,7 @@ export const Page:React.FC = ({children}) => {
 
             {children}
 
-            <footer className={s.footer}>
-                footer
-
-                {/*<img src="/vercel.svg" alt="Vercel Logo" className={s.logo} />*/}
-            </footer>
+            <Footer/>
         </div>
     )
 }

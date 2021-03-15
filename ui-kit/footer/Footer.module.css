@@ -1,11 +1,11 @@
-.all {
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
     min-width: 1366px;
     /*min-width: 1440px;*/
-    height: 69px;
+    height: 123px;
 
     background: linear-gradient(180deg, #3890E2 -26.09%, #2272C5 47.66%, #153E8D 123.19%);
     color: #f9f9f9;
@@ -13,18 +13,29 @@
 
 .menu {
     display: flex;
+    justify-content: center;
 }
 
 .menuItem {
     margin-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-.menuItemEnd {
-    margin-right: 7px;
-    padding-top: 20px;
 }
 
-.men {
-    padding-top: 17px;
+.space {
+    width: 600px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.mail {
+    margin-top: 15px;
 }

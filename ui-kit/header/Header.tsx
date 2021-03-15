@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import s from './Header.module.css'
-import Logo from './../../assets/logo-svg'
 import Men from './../../assets/men-svg'
+import {WinOrbit} from '../win-orbit/WinOrbit'
 
 export const Header: React.FC = () => {
     return (
@@ -19,11 +19,7 @@ export const Header: React.FC = () => {
                 <div className={s.menuItem}><Link href={'/lesson'}>lesson</Link></div>
             </div>
 
-            <div className={s.center}>
-                <div className={s.text}>зимняя</div>
-                <Logo/>
-                <div className={s.text}>орбита</div>
-            </div>
+            <WinOrbit/>
 
             <div className={s.menu}>
                 <div className={s.menuItem}>регистрация</div>
