@@ -20,6 +20,11 @@
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+.space {
+    width: 50px;
+}
+
 .menuItemEnd {
     margin-right: 7px;
     padding-top: 20px;
