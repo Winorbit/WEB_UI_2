@@ -1,0 +1,30 @@
+.main {
+    height: 672px;
+    padding-top: 30px;
+
+    background: #f1f1f1;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.target {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 505px;
+    width: 405px;
+}
+
+.text {
+    margin-top: 30px;
+
+    font-size: 32px;
+    font-family: 'sansation-light', serif;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+}
