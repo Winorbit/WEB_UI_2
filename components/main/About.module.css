@@ -9,7 +9,7 @@
 
 .withFlag {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .text1 {
@@ -38,6 +38,7 @@
 }
 
 .flag {
+    width: 400px;
 }
 
 .withButton {
