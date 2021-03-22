@@ -6,7 +6,7 @@ export const WinOrbit: React.FC = () => {
     return (
         <div className={s.center}>
             <div className={s.text}>зимняя</div>
-            <Logo/>
+            <Logo stroke={0} width={0} height={0} fill={0}/>
             <div className={s.text}>орбита</div>
         </div>
     )
