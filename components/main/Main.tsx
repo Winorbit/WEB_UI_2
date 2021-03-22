@@ -1,6 +1,6 @@
 // import Link from 'next/link'
 // import s from './About.module.css'
-import About from './About'
+import About from './block1/About'
 
 const Main = () => {
     return (

@@ -1,6 +1,6 @@
 // import Link from 'next/link'
 import s from './About.module.css'
-import Button from '../../ui-kit/button/Button'
+import Button from '../../../ui-kit/button/Button'
 import Flag from './Flag'
 
 const About = () => {

@@ -1,6 +1,6 @@
-import Logo from '../../assets/logo-svg'
+import Logo from '../../../assets/logo-svg'
 import s from './Flag.module.css'
-import flag from './flag.png'
+import flag from '../../../assets/flag.png'
 
 const Flag = () => {
     return (
