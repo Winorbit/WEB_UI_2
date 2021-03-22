@@ -1,0 +1,19 @@
+.flag {
+    position: absolute;
+    z-index: 10;
+}
+
+.block1 {
+    position: absolute;
+    left: -370px;
+
+    z-index: 11;
+}
+
+.block2 {
+    position: absolute;
+    left: -310px;
+    top: 85px;
+
+    z-index: 12;
+}
