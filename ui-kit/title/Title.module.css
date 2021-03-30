@@ -1,0 +1,21 @@
+.block {
+    display: flex;
+    justify-content: flex-end;
+    width: 590px;
+}
+
+.text {
+    color: #101010;
+    font-size: 42px;
+    font-family: 'sansation-light', serif;
+    font-weight: bold;
+    line-height: 47px;
+    letter-spacing: -0.03em;
+}
+
+.line {
+    width: 590px;
+
+    border: 6px solid #2b7fd1;
+    border-radius: 0 6px 6px 0;
+}

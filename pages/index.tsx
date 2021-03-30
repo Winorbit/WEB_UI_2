@@ -1,11 +1,14 @@
 import Link from 'next/link'
 import s from '../ui-kit/page/Home.module.css'
 import {Page} from '../ui-kit/page/Page'
+import Main from '../components/main/Main'
 
 const Index = () => { // any name
     return (
         <Page>
             <main className={s.main}>
+                <Main/>
+
                main
                 <br/>
                 <br/>
